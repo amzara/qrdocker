@@ -1,0 +1,29 @@
+name: qrdocker
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  dio: ^5.4.1
+  file_picker: ^6.2.0
+  flutter:
+    sdk: flutter
+  flutter_cors: ^1.5.0
+  http: ^1.2.1
+  material_symbols_icons: ^4.2719.3
+  provider: ^6.1.2
+  super_clipboard: ^0.8.5
+  syncfusion_flutter_pdf: ^24.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/123logo.png
